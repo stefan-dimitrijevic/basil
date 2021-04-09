@@ -1,0 +1,28 @@
+ul.leaders {
+  padding: 0;
+  overflow-x: hidden;
+  list-style: none;
+}
+
+ul.leaders li:before {
+  float: left;
+  color: #356859;
+  width: 0;
+  white-space: nowrap;
+  content: ". . . . . . . . . . . . . . . . . . . . " ". . . . . . . . . . . . . . . . . . . . " ". . . . . . . . . . . . . . . . . . . . " ". . . . . . . . . . . . . . . . . . . . ";
+}
+
+ul.leaders span:first-child {
+  padding-right: 0.33em;
+  background: #fffbe6;
+  color: #356859;
+}
+
+ul.leaders span + span {
+  float: right;
+  padding-left: 0.33em;
+  background: #fffbe6;
+  color: #356859;
+  font-family: 'Montserrat';
+}
+

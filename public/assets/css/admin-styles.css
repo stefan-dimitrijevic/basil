@@ -1,0 +1,74 @@
+a:hover {
+    text-decoration: none;
+}
+
+.navbar-nav:hover {
+    cursor: pointer;
+}
+
+.table-image {
+    max-height: 100px;
+}
+
+.not-visible {
+    height: 47px;
+}
+.add-icon {
+    font-size: 36px;
+ }
+
+.add-icon:hover {
+    cursor: pointer;
+    color: #18ce0f;
+}
+
+.add-ingredient-color {
+    color: #18ce0f
+}
+
+.remove-icon {
+    font-size: 36px;
+}
+
+.remove-icon:hover {
+    cursor: pointer;
+    color: #FF3636;
+}
+
+.remove-ingredient-color {
+    color: #FF3636
+}
+
+.ingredient-row {
+    margin-top: 5px;;
+    margin-bottom: 0rem;
+}
+
+.input-file {
+    margin-bottom: 20px;
+}
+
+.input-date {
+    margin-top: 9px;
+}
+
+.admin-content {
+    min-height: inherit;
+}
+
+.error-card {
+    display: none;
+    color: #FF3636
+}
+
+.btn-remove-ingredient {
+    display: none;
+}
+
+.btn-remove-direction {
+    display: none;
+}
+
+.back-color {
+    background-color: rgba(24, 206, 15, 0.03);
+}

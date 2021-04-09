@@ -1,0 +1,316 @@
+body {
+    background: #fffbe6;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.back-color {
+    background-color: rgba(53, 104, 89, 0.2);
+}
+
+.create-edit-container {
+    width: 0 !important;
+}
+
+.btn-remove-ingredient {
+    display: none;
+}
+
+.btn-remove-direction {
+    display: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.recipe-user:hover {
+    text-decoration: underline;
+}
+
+.navigation-recipes li a {
+    color: #356859;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.nav .nav-link.active::after {
+    content: '';
+    position: absolute;
+    width: 45px;
+    background: #356859;
+    height: 1px;
+    bottom: 5px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.table td {
+    vertical-align: middle;
+}
+
+.recipes-table-row {
+    vertical-align: bottom;
+    border-bottom: 3px solid;
+    border-left: 3px solid;
+    border-right: 3px solid;
+    border-color: #356859
+}
+
+.recipe-name {
+    color: #356859;
+}
+
+.recipe-name:hover {
+    color: #356859;
+    text-decoration: underline;
+}
+
+input[type=file]::file-selector-button {
+    color: #356859;
+    border: 2px solid #fffbe6;
+    padding: .2em .4em;
+    border-radius: .2em;
+    background-color: #fffbe6;
+    transition: 1s;
+}
+
+input[type=file]::-webkit-file-upload-button:hover {
+    cursor: pointer;
+    background-color: #fd5523;
+    border: 2px solid #fd5523;
+    color: white;
+}
+
+
+.nav .nav-link.active-recipes {
+    background-color: initial;
+    font-weight: 700;
+    position: relative;
+}
+
+.table-image {
+    max-height: 100px;
+}
+
+.button {
+    background-color: #fd5523 !important;
+    color: #fffbe6;
+    padding: 16px 32px;
+    border: none;
+    opacity: 0.9;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 13px;
+    letter-spacing: 0.4px;
+    line-height: 1;
+}
+
+.button:hover {
+    opacity: 1;
+}
+
+.button:active {
+    transform: translateY(1px);
+}
+
+.search-icon {
+    position: absolute;
+    position: relative;
+    left: -25px;
+    z-index: 10;
+}
+
+.form-control {
+    color: #356859;
+}
+
+.form-control:focus {
+    color: #356859;
+    box-shadow: 0 0 0 0.0rem rgb(53 104 89 / 25%);
+    border-color: #356859;
+}
+
+input[type="search"]::-webkit-search-decoration, input[type="search"]::-webkit-search-cancel-button {
+    -webkit-appearance: none;
+}
+
+.recipe-heading {
+    color: #fd5523;
+    font-weight: 600;
+    text-align: center;
+}
+
+.recipe-heading:hover {
+    color: #ca441c;
+    text-decoration: none;
+}
+
+.min-content-height {
+    min-height: calc(75vh - 123px);
+}
+
+.card-color {
+    background-color: #356859
+}
+
+.recipe-image {
+    height: 350px;
+}
+
+.layer {
+    background-color: #b9e4c9;
+    /*position: absolute;*/
+    /*top: 0;*/
+    /*left: 0;*/
+    /*width: 100%;*/
+    /*height: 69%;*/
+}
+
+.div-opis {
+    height: 400px;
+    background-color: rgb(185, 228, 201, 0.85);
+}
+
+.page-link:focus {
+    z-index: 3;
+    outline: 0;
+    box-shadow: 0 0 0 0.1rem rgba(53, 104, 89, .25);
+}
+
+.page-link {
+    position: relative;
+    display: block;
+    padding: .5rem .75rem;
+    margin-left: -1px;
+    line-height: 1.25;
+    color: #fffbe6;
+    background-color: #356859;
+    border: 1px solid #fffbe6;
+}
+
+.page-item.active .page-link {
+    z-index: 2;
+    color: #fd5523;
+    text-decoration: none;
+    background-color: #b9e4c9;
+    border-color: #356859;
+}
+
+.page-link:hover {
+    z-index: 2;
+    color: #fd5523;
+    text-decoration: none;
+    background-color: #b9e4c9;
+    border-color: #356859;
+}
+
+.page-item.disabled .page-link {
+    background-color: #356859;
+    color: #fffbe6;
+}
+
+.korak {
+    width: 33px;
+    height: 33px;
+    color: #fd5523;
+    font-family: 'Montserrat';
+}
+
+.border {
+    border: 1px solid #356859 !important;
+}
+
+.like {
+    margin: 0px 10px;
+    color: #356859;
+    font-size: 24px;
+}
+
+.liked {
+    margin: 0px 10px;
+    color: #fd5523;
+    font-size: 24px;
+}
+
+a.like:hover {
+    color: #fd5523;
+}
+
+a.liked:hover {
+    color: #fd5523;
+}
+
+.user-link {
+    color: #356859;
+}
+
+.user-link:hover {
+    color: #fd5523;
+}
+
+.text-danger {
+    color: #fd5523 !important;
+}
+
+.form-control.is-invalid, .was-validated .form-control:invalid {
+    border-color: #fd5523 !important;
+    padding-right: calc(1.5em + .75rem);
+    background-image: url([svg]);
+    background-repeat: no-repeat;
+    background-position: right calc(.375em + .1875rem) center;
+    background-size: calc(.75em + .375rem) calc(.75em + .375rem);
+}
+
+.form-control.is-invalid:focus, .was-validated .form-control:invalid:focus {
+    border-color: #356859;
+    box-shadow: 0 0 0 .2rem rgba(53, 104, 89, .25);
+}
+
+.success-message {
+    color: #356859;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 100px;
+}
+
+.error-message {
+    color: #fd5523;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 100px;
+}
+
+.btn.btn-primary.btn-404:focus {
+    box-shadow: none;
+}
+
+.btn.btn-primary.btn-404 {
+    border: none;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active:focus {
+    box-shadow: 0 0 0 0.2rem rgb(53 104 89 / 50%);
+}
+
+.directions {
+    display: none;
+}
+
+#data {
+    min-height: 250px;
+}
+
+.error-card {
+    /*width: 500px;*/
+    margin-top: 30px;
+    background: #fffbe6;
+    display: none;
+    color: #fd5523
+}
+
+textarea {
+    height: 500px;
+}
+
+

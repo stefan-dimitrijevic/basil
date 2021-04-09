@@ -1,0 +1,276 @@
+.register-photo {
+  padding: 100px 0;
+  min-height: 71vh;
+}
+
+.register-photo .image-holder {
+  display: table-cell;
+  width: auto;
+  background: url(../../assets/img/meeting.jpg);
+  background-size: cover;
+}
+
+.register-photo .form-container {
+  display: table;
+  max-width: 900px;
+  width: 90%;
+  margin: 0 auto;
+  box-shadow: 1px 1px 5px rgba(0,0,0,0.1);
+}
+
+.register-photo form {
+  display: table-cell;
+  width: 400px;
+  background-color: #ffffff;
+  padding: 40px 60px;
+  color: #356859;
+}
+
+@media (max-width:991px) {
+  .register-photo form {
+    padding: 40px;
+  }
+}
+
+.register-photo form h2 {
+  font-size: 24px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+.register-photo form .form-control {
+  background: #fffbe6;
+  border: none;
+  border-bottom: 1px solid #fffbe6;
+  border-radius: 0;
+  box-shadow: none;
+  outline: none;
+  color: inherit;
+  text-indent: 6px;
+  height: 40px;
+}
+
+.register-photo form .form-check {
+  font-size: 13px;
+  line-height: 20px;
+  color: #356859;
+}
+
+.register-photo form .btn-primary {
+  background: #f4476b;
+  border: none;
+  border-radius: 4px;
+  padding: 11px;
+  box-shadow: none;
+  margin-top: 35px;
+  text-shadow: none;
+  outline: none !important;
+}
+
+.register-photo form .btn-primary:hover, .register-photo form .btn-primary:active {
+  background: #eb3b60;
+}
+
+.register-photo form .btn-primary:active {
+  transform: translateY(1px);
+}
+
+.register-photo form .already {
+  display: block;
+  text-align: center;
+  font-size: 12px;
+  color: #356859;
+  opacity: 0.9;
+  text-decoration: none;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active:focus {
+  box-shadow: 0 0 0 0.2rem rgb(53 104 89 / 50%);
+}
+
+.form-check-input::after {
+  color: red;
+}
+
+.btn-primary {
+  opacity: 0.9;
+}
+
+.btn-primary:hover {
+  opacity: 1;
+}
+
+.profile-photo {
+    padding: 100px 0;
+    min-height: 71vh;
+}
+
+.profile-photo .image-holder {
+    display: table-cell;
+    width: auto;
+    background: url(../../assets/img/chefdez.jpg);
+    background-size: cover;
+}
+
+.profile-photo .form-container {
+    display: table;
+    max-width: 900px;
+    width: 90%;
+    margin: 0 auto;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.1);
+}
+
+.profile-photo form {
+    display: table-cell;
+    width: 400px;
+    background-color: #ffffff;
+    padding: 40px 60px;
+    color: #356859;
+}
+
+@media (max-width:991px) {
+    .profile-photo form {
+        padding: 40px;
+    }
+}
+
+.profile-photo form h2 {
+    font-size: 24px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+.profile-photo form .form-control {
+    background: #fffbe6;
+    border: none;
+    border-bottom: 1px solid #fffbe6;
+    border-radius: 0;
+    box-shadow: none;
+    outline: none;
+    color: inherit;
+    text-indent: 6px;
+    height: 40px;
+}
+
+.profile-photo form .form-check {
+    font-size: 13px;
+    line-height: 20px;
+    color: #356859;
+}
+
+.profile-photo form .btn-primary {
+    background: #fd5523;
+    border: none;
+    border-radius: 4px;
+    padding: 11px;
+    box-shadow: none;
+    margin-top: 35px;
+    text-shadow: none;
+    outline: none !important;
+}
+
+.profile-photo form .btn-primary:hover, .register-photo form .btn-primary:active {
+    background: #fd5523;
+}
+
+.profile-photo form .btn-primary:active {
+    transform: translateY(1px);
+}
+
+.profile-photo form .already {
+    display: block;
+    text-align: center;
+    font-size: 12px;
+    color: #356859;
+    opacity: 0.9;
+    text-decoration: none;
+}
+
+.recipe-photo {
+    padding: 100px 0;
+    min-height: 71vh;
+}
+
+.recipe-photo .image-holder {
+    display: table-cell;
+    width: auto;
+    background: url(../../assets/img/recipe.jpg);
+    background-size: cover;
+}
+
+.recipe-photo .form-container {
+    display: table;
+    max-width: 900px;
+    width: 90%;
+    margin: 0 auto;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.1);
+}
+
+.recipe-photo form {
+    display: table-cell;
+    width: 400px;
+    background-color: #ffffff;
+    padding: 40px 60px;
+    color: #356859;
+}
+
+@media (max-width:991px) {
+    .recipe-photo form {
+        padding: 40px;
+    }
+}
+
+.recipe-photo form h2 {
+    font-size: 24px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+.recipe-photo form .form-control {
+    background: #fffbe6;
+    border: none;
+    border-bottom: 1px solid #fffbe6;
+    border-radius: 0;
+    box-shadow: none;
+    outline: none;
+    color: inherit;
+    text-indent: 6px;
+    height: 40px;
+}
+
+.recipe-photo form .form-check {
+    font-size: 13px;
+    line-height: 20px;
+    color: #356859;
+}
+
+.recipe-photo form .btn-primary {
+    background: #fd5523;
+    border: none;
+    border-radius: 4px;
+    padding: 11px;
+    box-shadow: none;
+    margin-top: 35px;
+    text-shadow: none;
+    outline: none !important;
+}
+
+.recipe-photo form .btn-primary:hover, .register-photo form .btn-primary:active {
+    background: #fd5523;
+}
+
+.recipe-photo form .btn-primary:active {
+    transform: translateY(1px);
+}
+
+.recipe-photo form .already {
+    display: block;
+    text-align: center;
+    font-size: 12px;
+    color: #356859;
+    opacity: 0.9;
+    text-decoration: none;
+}
+
+
+
